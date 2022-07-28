@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FFFFFF;
+}
+
+section {
+    width: 83rem;
+    margin: auto;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+}
+[alt="brand-logo"]{
+    height: 3rem;
+}
+.grow-list{
+    flex-grow: 1;
+ }
+ .list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 4rem;
+    font-size: 15px;
+    color: #758283;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-item{
+    margin-right: 30px;
+}
+.list-item:nth-child(1){
+    color: #000;
+}
+.nav-button {
+  background-color: #5955B3;
+  border-radius: 8px;
+  border-style: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  padding: 10px 16px;
+}
+
+
+/* CSS */
+
+.banner-container{
+    display: flex;
+    width: 30%;
+    margin-top: 5rem;
+   
+
+}
+.heading-text{
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #3C2F60;
+}
+.heading-text span{
+    color: #5855b3;
+}
+.description{
+    font-size: 13px;
+    color: #758283;
+    margin: 2rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-container div img{
+    position: absolute;
+    top: 8rem;
+    right:10px;
+    width: 700px;
+    
+}
+.btn{
+    background-color: #5955B3;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    height: 50px;
+    padding: 10px 20px;
+    
+}
