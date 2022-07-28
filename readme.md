@@ -6,7 +6,7 @@
 ![This is an image](./project.jpg)
 
 ### As a result of this project, I learn the following:
-[LIVE-LINK](https://lawhomepage.netlify.app/)
+[LIVE-LINK](https://digitalmarketinghomepage.netlify.app/)
 
 - [x] How to design beautiful buttons and navbar
 - [x] Learned about how to use svg as background image
